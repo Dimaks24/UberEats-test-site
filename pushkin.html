@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="stylesheet" href="ubereats.css" />
+    <title>Трактир «Пушкин»</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="topmenu">
+                <a href="index.html" class="topmenu__logo">
+                    <img src="content/logo.svg" alt="topmenu__logo"/>
+                </a>
+                <div class="topmenu-right">
+                    <a>
+                        <input type="button" value="Войти" class="topmenu-right__button" />
+                    <a href="#" class="topmenu-right__basket">
+                        <img src="content/basket2.svg" alt="topmenu-right__basket"/>
+                    </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="unit-1-logo">
+        <div class="container">
+            <div class="row unit-1-name col-xs12 col-md-7 col-lg-5 col-xl-5">
+                <p>Трактир «Пушкин»</p>
+                <div class="unit-1-info">
+                    <div class="unit-1-info__kitchen">₽₽₽ • Европейская</div>
+                    <div class="unit-1-info__time">40 - 50 мин</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <ul id="navbar">
+                <li>
+                    <a
+                        href="#"
+                        style="text-decoration: none"
+                        class="navbar__active-item"
+                        >Закуски</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none" class="navbar__item"
+                    >Салаты</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none" class="navbar__item"
+                    >Супы</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none" class="navbar__item"
+                    >Горячие блюда</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none" class="navbar__item"
+                    >Гарниры</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none" class="navbar__item"
+                    >Десерты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-title">
+            <h1>Закуски</h1>
+            <hr
+                class="main-title__underline"
+                size="1px"
+                color="#757575"
+                width="50px"
+            />
+        </div>
+        <div class="row">
+            <div class="module col-xs12 col-md-12 col-xl-6">
+                <div class="card">
+                    <picture>
+                        <source
+                            media="(min-width: 576px) and (max-width: 991px)"
+                            srcset="content/puskinSeldMD.svg"
+                        />
+                        <source
+                            media="(max-width: 575px)"
+                            srcset="content/puskinSeldXS.svg"
+                        />
+                        <img
+                            src="content/puskinSeld.svg"
+                            alt="Сельдь на бородинском хлебе"
+                            align="right"
+                        />
+                    </picture>
+                    <h2 class="module__info" title="Сельдь на бородинском хлебе">
+                        Сельдь на бородинском хлебе
+                    </h2>
+                    <h3 class="module__extra-info">С яйцом и огурцом</h3>
+                    <span class="module__price">240 ₽</span>
+                </div>
+            </div>
+            <div class="module col-xs12 col-md-12 col-xl-6">
+                <div class="card">
+                    <picture>
+                        <source
+                            media="(min-width: 576px) and (max-width: 991px)"
+                            srcset="content/pushkinSolenyaMD.svg"
+                        />
+                    <source
+                        media="(max-width: 575px)"
+                        srcset="content/pushkinSolenyaXS.svg"
+                    />
+                    <img
+                        src="content/pushkinSolenya.svg"
+                        alt="Соленья ассорти"
+                        align="right"
+                    />
+                    </picture>
+  
+                    <h2 class="module__info" title="Соленья ассорти">
+                        Соленья ассорти
+                    </h2>
+                    <span class="module__price">320 ₽</span>
+                </div>
+            </div>
+            <div class="module col-xs12 col-md-12 col-xl-6">
+                <div class="card">
+                    <picture>
+                        <source
+                            media="(min-width: 576px) and (max-width: 991px)"
+                            srcset="content/pushkinGribyMD.svg"
+                        />
+                        <source
+                            media="(max-width: 575px)"
+                            srcset="content/pushkinGribyXS.svg"
+                        />
+                        <img
+                            src="content/pushkinGriby.svg"
+                            alt="Грибы маринованные"
+                            align="right"
+                        />
+                    </picture>
+  
+                    <h2 class="module__info" title="Грибы маринованные">
+                        Грибы маринованные
+                    </h2>
+                    <span class="module__price">300 ₽</span>
+                </div>
+            </div>
+            <div class="module col-xs12 col-md-12 col-xl-6">
+                <div class="card">
+                    <picture>
+                        <source
+                            media="(min-width: 576px) and (max-width: 991px)"
+                            srcset="content/pushkinSaloMD.svg"
+                        />
+                        <source
+                            media="(max-width: 575px)"
+                            srcset="content/pushkinSaloXS.svg"
+                        />
+                        <img
+                            src="content/pushkinSalo.svg"
+                            alt="Сало домашнее с горчицей"
+                            align="right"
+                        />
+                    </picture>
+  
+                    <h2 class="module__info" title="Сало домашнее с горчицей">
+                        Сало домашнее с горчицей
+                    </h2>
+                    <span class="module__price">320 ₽</span>
+                </div>
+            </div>
+            <div class="module col-xs12 col-md-12 col-xl-6">
+                <div class="card">
+                    <picture>
+                        <source
+                            media="(min-width: 576px) and (max-width: 991px)"
+                            srcset="content/pushkinSemgaMD.svg"
+                        />
+                        <source
+                            media="(max-width: 575px)"
+                            srcset="content/pushkinSemgaXS.svg"
+                        />
+                        <img
+                            src="content/pushkinSemga.svg"
+                            alt="Малосольная семга"
+                            align="right"
+                        />
+                    </picture>
+  
+                    <h2 class="module__info" title="Малосольная семга">
+                        Малосольная семга
+                    </h2>
+                    <span class="module__price">390 ₽</span>
+                </div>
+            </div>
+            <div class="module col-xs12 col-md-12 col-xl-6">
+                <div class="card">
+                    <picture>
+                        <source
+                            media="(min-width: 576px) and (max-width: 991px)"
+                            srcset="content/pushkinYazikMD.svg"
+                        />
+                        <source
+                            media="(max-width: 575px)"
+                            srcset="content/pushkinYazikXS.svg"
+                        />
+                        <img
+                            src="content/pushkinYazik.svg"
+                            alt="Язык говяжий с хреном"
+                            align="right"
+                        />
+                    </picture>
+  
+                    <h2 class="module__info" title="Язык говяжий с хреном">
+                        Язык говяжий с хреном
+                    </h2>
+                    <span class="module__price">390 ₽</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="content/logo-footer.svg" alt="footer-logo" />
+            </div>
+            <hr size="1px" color="grey" />
+            <div class="row">
+                <div class="footer-info col-xs-12 col-md-4 col-xl-4">
+                    <div class="select-language">
+                        <a><img src="content/world.svg" alt="world" /></a>
+                        <select class="select">
+                            <option>Русский</option>
+                            <option>English</option>
+                            <option>Español</option>
+                        </select>
+                    </div>
+                    <div class="social">
+                        <img src="content/social.svg" alt="social" />
+                    </div>
+                </div>
+  
+                <div class="footer-info col-xs-12 col-md-4 col-xl-4">
+                    <div>
+                        <p>Об UberEats</p>
+                        <p>Станьте партнёром по доставке</p>
+                        <p>Станьте парнёром-рестораном</p>
+                    </div>
+                </div>
+                <div class="footer-info col-xs-12 col-md-4 col-xl-4">
+                    <div>
+                        <p>Все города</p>
+                        <p>Цены</p>
+                        <p>Помощь</p>
+                        <p>FAQs</p>
+                    </div>
+                </div>
+            </div>
+            <hr size="1px" color="grey" />
+            <div class="social-network">
+                <p><img src="content/AppStore.svg" alt="App Store" /></p>
+                <p><img src="content/GooglePlay.svg" alt="Google Play" /></p>
+            </div>
+            <hr size="1px" color="grey" />
+            <div class="row">
+                <div class="footer-rights-terms col-xs-12 col-md-4 col-xl-4">
+                    © 2017 Uber Technologies Inc.
+                </div>
+                <div class="footer-rights-terms col-xs-12 col-md-4 col-xl-4">
+                    Обработка персональных данных
+                </div>
+                <div class="footer-rights-terms col-xs-12 col-md-4 col-xl-4">
+                    Пользовательское соглашение
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" title="Вернуться к началу" class="back-to-top"
+      ><img src="content/Arrow.svg" alt="Arrow"/>
+    </a>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"/>
+    <link rel="stylesheet" href="ubereats.css" />
+    <title>
+        Uber Eats | Food Delivery and Takeout - Order Online from Restaurants Near
+      You
+    </title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+          <div class="topmenu">
+            <a href="#top" class="topmenu__logo">
+              <img src="content/logo.svg" alt="topmenu__logo"
+            /></a>
+            <div class="topmenu-right">
+              <button class="topmenu-right__button">Войти</button>
+              <a href="#" class="topmenu-right__basket">
+                <img src="content/basket2.svg" alt="topmenu-right__basket"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- SEARCH -->
+      <div class="container">
+        <form>
+          <div class="search">
+            <input
+              type="text"
+              name="text"
+              placeholder="Поиск по ресторанам и кухням"
+              size="40"
+            />
+          </div>
+        </form>
+        <!-- RESTAURANTS  -->
+        <div class="header">
+          <h1>Рестораны в Москве</h1>
+        </div>
+        <div class="row">
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/McDonaldsMD.svg"
+                />
+                <img src="content/McDonalds.svg" alt="Макдоналдс — Газетный" />
+              </picture>
+              <h2 class="unit-name">Макдоналдс — Газетный</h2>
+              <h3 class="unit-info">₽₽ • Бургеры</h3>
+              <span class="unit-time">25 - 35 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/DimSumMD.svg"
+                />
+                <img src="content/DimSum.svg" alt="DimSum & Co — ЦДМ" />
+              </picture>
+              <h2 class="unit-name">DimSum & Co — ЦДМ</h2>
+              <h3 class="unit-info">₽ • Японская • Китайская • Азиатская</h3>
+              <span class="unit-time">40 - 50 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/DvizhMD.svg"
+                />
+                <img src="content/Dvizh.svg" alt="ДвижОК — Манежная" />
+              </picture>
+              <h2 class="unit-name">ДвижОК — Манежная</h2>
+              <h3 class="unit-info">₽ • Американская • Европейская</h3>
+              <span class="unit-time">35 - 45 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/NhaMD.svg"
+                />
+                <img src="content/Nha.svg" alt="НЯ — NHA" />
+              </picture>
+              <h2 class="unit-name">НЯ — NHA</h2>
+              <h3 class="unit-info">₽₽ • Вьетнамская</h3>
+              <span class="unit-time">30 - 40 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/TochkaMD.svg"
+                />
+                <img src="content/Tochka.svg" alt="Точка Дзы — Цветной" />
+              </picture>
+              <h2 class="unit-name">Точка Дзы — Цветной</h2>
+              <h3 class="unit-info">₽₽ • Вьетнамская</h3>
+              <span class="unit-time">40 - 50 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/CinnabonMD.svg"
+                />
+                <img src="content/Cinnabon.svg" alt="Cinnabon" />
+              </picture>
+              <h2 class="unit-name">Cinnabon</h2>
+              <h3 class="unit-info">₽ • Выпечка • Десерты • Капкейки</h3>
+              <span class="unit-time">25 - 35 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/PizzeloveMD.svg"
+                />
+                <img src="content/Pizzelove.svg" alt="PIZZELOVE" />
+              </picture>
+              <h2 class="unit-name">PIZZELOVE</h2>
+              <h3 class="unit-info">₽₽ • Пицца</h3>
+              <span class="unit-time">15 - 25 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/ZyuMD.svg"
+                />
+                <img src="content/Zyu.svg" alt="Zю кафе — Тверская" />
+              </picture>
+              <h2 class="unit-name">Zю кафе — Тверская</h2>
+              <h3 class="unit-info">₽₽ • Японская</h3>
+              <span class="unit-time">25 - 35 мин</span>
+            </div>
+          </div>
+          <div class="unit col-xs-12 col-md-6 col-xl-4">
+            <div
+              class="linkblock"
+              title="Трактир «Пушкин»"
+              onclick="location.href='pushkin.html';"
+            >
+              <picture>
+                <source
+                  media="(min-width: 768px) and (max-width: 991px)"
+                  srcset="content/BarBQMD.svg"
+                />
+                <img src="content/BarBQ.svg" alt="Bar BQ Cafe — Манежная" />
+              </picture>
+              <h2 class="unit-name">Bar BQ Cafe — Манежная</h2>
+              <h3 class="unit-info">₽₽₽ • Европейская</h3>
+              <span class="unit-time">30 - 40 мин</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER  -->
+      <footer>
+        <div class="container">
+          <div class="footer-logo">
+            <img src="content/logo-footer.svg" alt="footer-logo" />
+          </div>
+          <hr size="1px" color="grey" />
+          <div class="row">
+            <div class="footer-info col-xs-12 col-md-4 col-xl-4">
+              <div class="select-language">
+                <a><img src="content/world.svg" alt="world" /></a>
+                <select class="select">
+                  <option>Русский</option>
+                  <option>English</option>
+                  <option>Español</option>
+                </select>
+              </div>
+              <div class="social">
+                <img src="content/social.svg" alt="social" />
+              </div>
+            </div>
+  
+            <div class="footer-info col-xs-12 col-md-4 col-xl-4">
+              <div>
+                <p>Об UberEats</p>
+                <p>Станьте партнёром по доставке</p>
+                <p>Станьте парнёром-рестораном</p>
+              </div>
+            </div>
+            <div class="footer-info col-xs-12 col-md-4 col-xl-4">
+              <div>
+                <p>Все города</p>
+                <p>Цены</p>
+                <p>Помощь</p>
+                <p>FAQs</p>
+              </div>
+            </div>
+          </div>
+          <hr size="1px" color="grey" />
+          <div class="social-network">
+            <p><img src="content/AppStore.svg" alt="App Store" /></p>
+            <p><img src="content/GooglePlay.svg" alt="Google Play" /></p>
+          </div>
+          <hr size="1px" color="grey" />
+          <div class="row">
+            <div class="footer-rights-terms col-xs-12 col-md-4 col-xl-4">
+              © 2017 Uber Technologies Inc.
+            </div>
+            <div class="footer-rights-terms col-xs-12 col-md-4 col-xl-4">
+              Обработка персональных данных
+            </div>
+            <div class="footer-rights-terms col-xs-12 col-md-4 col-xl-4">
+              Пользовательское соглашение
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- BUTTON  -->
+      <a href="#" title="Вернуться к началу" class="back-to-top"
+        ><img src="content/Arrow.svg" alt="Arrow"
+      /></a>
+</body>
+</html>
